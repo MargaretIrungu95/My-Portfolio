@@ -1,0 +1,14 @@
+body {
+    color: aliceblue;
+}
+.home{
+    padding-top: 80px;
+    background-image: url('../Images/snowdots.webp');
+    width: fit-content;
+    background-repeat: repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: auto;
+    height: 100vh;
+    width: 100%;
+}
