@@ -1,0 +1,29 @@
+.nav-wrapper {
+    position: fixed;
+    /* background-image: url('../Images/background.jpg'); */
+    background: transparent;
+    width: 100vw;
+    height: auto;
+    background-size: cover;
+    border-bottom: 2px solid lightcoral;
+    top: 0;
+    overflow-x: hidden;
+    z-index: 2;
+    color: aliceblue;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95vw;
+    margin: auto;
+    /* background-color:rgba(128, 0, 128, 0.185); */
+    /* padding: 30px; */
+}
+
+.logo {
+    width: fit-content;
+    height: fit-content;
+}
+
