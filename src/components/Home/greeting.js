@@ -1,4 +1,5 @@
 import React from 'react';
+import './Home.css'
 
 const Greetings = () => {
     let myDate = new Date();
@@ -9,10 +10,10 @@ const Greetings = () => {
         greet =  "Morning";
     else if (hours >= 12 && hours <= 17)
         greet = "Afternoon";
-    else if (hours >= 17 && hours <= 24)
+    else if (hours > 17 && hours <= 24)
         greet = "Evening";
     
-    return <span> Good {greet}!</span>
+    return <span> Good <span className='time'>{greet}</span>!</span>
 }
 
 export default Greetings; 

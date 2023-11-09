@@ -19,7 +19,7 @@ function Navbar() {
       <nav> 
         <img className='logo' src= {logo} alt='logo'/>
         <p className='name'>Margaret Irungu
-          <span> |Software Developer</span>
+          <span style={{color: '#cc9dcc'}}> |Software Developer</span>
         </p>
 
         <Link to= '/' className='link'>
