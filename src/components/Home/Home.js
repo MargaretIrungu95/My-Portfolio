@@ -31,6 +31,7 @@ function Home() {
           <br/>I hope you enjoy getting to know 
           <br/>alittle more about me.</p>
         </Reveal>
+        <br/>
         <Bounce className= 'scroll-wrapper'>
           <h3 className='scroll'>HAPPY <span className='scrolling'>SCROLLING</span></h3>
         </Bounce>
