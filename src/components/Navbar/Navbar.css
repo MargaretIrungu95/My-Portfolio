@@ -46,7 +46,8 @@ nav {
 /* rgba(255, 255, 255, 1) */
 
 .name {
-    font-family: cursive ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 1.25em;
 }
 
 .soft-dev {

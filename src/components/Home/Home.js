@@ -9,7 +9,7 @@ function Home() {
   return (
     <div className='home'>
       <div className='purpbg'>
-        <img src= {purplebg} alt='violetgif' style={{width:'160%'}}/>
+        <img src= {purplebg} alt='violetgif' style={{width:'150%', position: 'relative'}}/>
       </div>
       <br/>
       <div className='about-wrapper'>
@@ -32,7 +32,7 @@ function Home() {
           <br/>alittle more about me.</p>
         </Reveal>
         <Bounce className= 'scroll-wrapper'>
-          <h3 className='scroll'>HAPPY <span className='scrolling'>SCROLLING !</span></h3>
+          <h3 className='scroll'>HAPPY <span className='scrolling'>SCROLLING</span></h3>
         </Bounce>
 
       </div> 
