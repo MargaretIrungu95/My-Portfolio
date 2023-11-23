@@ -1,5 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { LightSpeed } from "react-reveal";
 import {
   faCss3,
   faGitAlt,
@@ -16,15 +17,24 @@ function About() {
       <br/>
       <br/>
       <br/>
-      <h1>
-        OVERVIEW
-      </h1>
-      <p>
-        I am a Junior Developer looking to get into the Technology Industry.<br/>
-        I am keen to learn new programming languages via building games and applications. <br/>
-        I enjoy creating both the front and backend, hence looking to fulfil a career in Fullstack Development.
-      </p>
-      <br/>
+      <div className='overview-desc'>
+        <h1 style={{color: '#EE82EE'}}>
+          OVERVIEW
+        </h1>
+        <LightSpeed>
+          <p>
+            I am a <span style={{color: '#fa9ffa'}}>Junior Developer</span> looking to get into the Technology Industry. <br/>
+            I am keen to learn new programming languages via building games and applications. <br/> 
+            I enjoy creating both the front and backend, hence looking to fulfil a career in <span style={{color: '#fa9ffa'}}>Fullstack Development</span>.
+          </p>
+          <p>
+            I am an adaptable and fast learner, which is crucial for this industry. <br/>
+            I am therefore always looking to keep up with new and updated languages <br/>
+            as I continue to grow within my abilities as an upcoming developer. <br/>
+            If I was to describe myself in a sentence that would be: <br/>
+            <span style={{color: '#fa9ffa'}}>"Resilient, always Curious, just like a cat!"</span>
+          </p>
+        </LightSpeed>
       {/* <p>
         Some of the frameworks I have worked with are:
       </p>
@@ -40,14 +50,11 @@ function About() {
         Git 
       </p> */}
 
-      <p>
-        I am an adaptable and fast learner, which is crucial for this industry. <br/>
-        I am therefore always looking to keep up with new and updated languages <br/>
-        as I continue to grow within my abilities as an upcoming developer. <br/>
-        If I was to describe myself in a sentence that would be: <br/>
-        "Resilient, always Curious just like a cat! "
-      </p>
+      
+      </div>
+      
 
+      {/* creating the cube */}
       <div className="stage-cube-cont">
         <div className="cubespinner">
           <div className="face1">
