@@ -1,5 +1,5 @@
 body {
-  background-image: url('./herobg.png');
+  background-image: url('../src/components/Images/herobg.png');
   background-size: cover;
   height: 100vh;
   width: 100%;

@@ -1,16 +1,15 @@
 import React from 'react';
 import "./Home.css";
-import Greetings from './greeting'
+import Greetings from './greeting';
+import { Link } from "react-router-dom";
 import { Zoom, Bounce, Reveal } from "react-reveal";
-import purplebg from '../Images/purple-bg.webp';
+import blckgirlcode from '../Images/Blckgirlcode.gif';
 import ReactTyped from 'react-typed';
 
 function Home() {
   return (
     <div className='home'>
-      <div className='purpbg'>
-        <img src= {purplebg} alt='violetgif' style={{width:'150%', position: 'relative'}}/>
-      </div>
+      
       <br/>
       <div className='about-wrapper'>
         <Bounce>
@@ -35,11 +34,22 @@ function Home() {
           <h3 className='scroll'>HAPPY <span className='scrolling'>SCROLLING</span></h3>
         </Bounce> */}
         <br/>
-        <button>About me</button>
-        <button>Contact me</button>
-
+        <Link to= '/about' className='linky'>
+          <button>
+            About Me
+          </button>
+        </Link> 
+        <Link to= '/contact' className='linky'>
+          <button>
+            Contact Me
+          </button>
+        </Link>
       </div> 
+        <div className='purpbg'>
+          <img src= {blckgirlcode} alt='coding girl' style={{width:'72%', position: 'relative'}}/>
+        </div>
     </div>
+    
   )
 }
 
