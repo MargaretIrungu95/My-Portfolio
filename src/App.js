@@ -1,4 +1,5 @@
 import './App.css';
+import { useState } from 'react';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Home from './components/Home/Home';
@@ -9,6 +10,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 
 function App() {
+
+
   return (
     <div className="App">
       <BrowserRouter>

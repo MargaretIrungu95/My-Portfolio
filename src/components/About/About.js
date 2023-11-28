@@ -18,7 +18,7 @@ function About() {
       <br/>
       <br/>
       <div className='overview-desc'>
-        <h1 style={{color: '#EE82EE'}}>
+        <h1 className = 'my-name'style={{color: '#EE82EE'}}>
           OVERVIEW
         </h1>
         <LightSpeed>

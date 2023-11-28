@@ -2,7 +2,7 @@ import React from 'react';
 import "./Home.css";
 import Greetings from './greeting';
 import { Link } from "react-router-dom";
-import { Zoom, Bounce, Reveal } from "react-reveal";
+import { Zoom, Bounce, Reveal, Fade } from "react-reveal";
 import blckgirlcode from '../Images/Blckgirlcode.gif';
 import ReactTyped from 'react-typed';
 
@@ -46,7 +46,10 @@ function Home() {
         </Link>
       </div> 
         <div className='purpbg'>
-          <img src= {blckgirlcode} alt='coding girl' style={{width:'72%', position: 'relative'}}/>
+          <Fade>
+            <img src= {blckgirlcode} alt='coding girl' style={{width:'72%', position: 'relative', borderRadius: '130px'}}/>
+          </Fade>
+          
         </div>
     </div>
     

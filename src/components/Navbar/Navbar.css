@@ -19,6 +19,8 @@ nav {
     width: 95vw;
     margin: auto;
     padding-right: 15px;
+    padding-bottom: 3px;
+    padding-top: 2px;
     /* background-color:rgba(128, 0, 128, 0.185); */
     /* padding: 30px; */
 }
