@@ -13,11 +13,11 @@ const Tagcloud = () => {
         'HTML5',
         'CSS3',
         'JavaScript',
-        'MySQl',
+        'MySQL',
         'Git',
     ]
     const options = {
-        radius: 300,
+        radius: 270,
       // animation speed
       // slow, normal, fast
         maxSpeed: 'fast',

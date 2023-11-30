@@ -1,0 +1,40 @@
+.skills {
+    display: flex;
+    flex-direction: row;
+    margin: 60px;
+}
+
+.tagcloud {
+    float: right;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px  #df00ff;
+    color: #82EEFD;
+}
+
+.tagcloud--item:hover {
+    color:   #fdee00;
+}
+
+.tagcloud-wrap {
+    padding-top: 30px;
+    padding-right: 40px;
+}
+
+.skills-title {
+    /* box-sizing: inherit; */
+    width: 110px;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    color: #EE82EE;
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.content-wrap {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 30px;
+    padding-left: 50px;
+    line-height: 30px;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { LightSpeed } from "react-reveal";
+import { LightSpeed, Fade } from "react-reveal";
 import {
   faCss3,
   faGitAlt,
@@ -18,9 +18,12 @@ function About() {
       <br/>
       <br/>
       <div className='overview-desc'>
-        <h1 className = 'my-name'style={{color: '#EE82EE'}}>
-          OVERVIEW
-        </h1>
+        <Fade>
+          <h1 className = 'my-name'style={{color: '#EE82EE'}}>
+            OVERVIEW
+          </h1>
+        </Fade>
+        
         <LightSpeed>
           <p>
             I am a <span style={{color: '#fa9ffa'}}>Junior Developer</span> looking to get into the Technology Industry. <br/>
