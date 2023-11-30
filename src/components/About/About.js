@@ -28,7 +28,8 @@ function About() {
             I enjoy creating both the front and backend, hence looking to fulfil a career in <span style={{color: '#fa9ffa'}}>Fullstack Development</span>.
           </p>
           <p>
-            I am an adaptable and fast learner, which is crucial for this industry. <br/>
+            As an Aerospace Engineering graduate, I am an analytical, adaptable and <br/>
+            fast learner as well as problem solver, which is crucial for this industry. <br/>
             I am therefore always looking to keep up with new and updated languages <br/>
             as I continue to grow within my abilities as an upcoming developer. <br/>
             If I was to describe myself in a sentence that would be: <br/>

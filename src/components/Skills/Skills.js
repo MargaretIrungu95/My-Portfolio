@@ -1,10 +1,15 @@
 import React from 'react';
 import "./Skills.css";
+import Tagcloud from './tagcloud';
 
 
 function Skills() {
   return (
-    <div>Skills</div>
+    <div>
+      <br/>
+      <br/>
+      <Tagcloud/>
+    </div>
   )
 }
 
