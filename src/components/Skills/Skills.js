@@ -9,10 +9,10 @@ function Skills() {
     <div className='skills'>
       <div className='content-wrap'>
         <Bounce>
-          <h1 className='skills-title'> <span>SKILLS</span></h1>
+          <h1 className='skills-title'> <span><em>SKILLS</em></span></h1>
         </Bounce>
         <Zoom>
-          <p className='skills-content'>
+          <p className='skills-content aboutcont'>
             I took a particular interest in coding during my time as an Engineering student.<br/> 
             I however took a liking to <span style={{color: '#fa9ffa'}}><em>Software Development</em></span> upon completion of my degree. <br/>
             I undertook a short vigorous course that sharpened my knowledge in Full Stack Development.<br/>

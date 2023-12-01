@@ -94,6 +94,10 @@ body {
     text-decoration: none;
 }
 
+.welcome-wrapper {
+    padding-top: -5px;
+}
+
 
 /* button {
     background-color: #cc9dcc;

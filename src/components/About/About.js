@@ -20,17 +20,17 @@ function About() {
       <div className='overview-desc'>
         <Fade>
           <h1 className = 'my-name'style={{color: '#EE82EE'}}>
-            OVERVIEW
+            <em>OVERVIEW</em>
           </h1>
         </Fade>
         
         <LightSpeed>
-          <p>
-            I am a <span style={{color: '#fa9ffa'}}>Junior Developer</span> looking to get into the Technology Industry. <br/>
-            I am keen to learn new programming languages via building games and applications. <br/> 
-            I enjoy creating both the front and backend, hence looking to fulfil a career in <span style={{color: '#fa9ffa'}}>Fullstack Development</span>.
+          <p className='aboutcont'>
+            I am a <span style={{color: '#fa9ffa'}}>Junior Developer</span> looking to get into the Technology Industry. I am keen to<br/>
+            learn new programming languages via building games and applications. I enjoy creating both <br/> 
+            the front and backend, hence looking to fulfil a career in <span style={{color: '#fa9ffa'}}>Fullstack Development</span>.
           </p>
-          <p>
+          <p className='aboutcont'>  
             As an Aerospace Engineering graduate, I am an analytical, adaptable and <br/>
             fast learner as well as problem solver, which is crucial for this industry. <br/>
             I am therefore always looking to keep up with new and updated languages <br/>

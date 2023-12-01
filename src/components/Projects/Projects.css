@@ -1,13 +1,18 @@
 .proj-title {
-    width: 160px;
-    right: 50px;
+    width: 150px;
+    /* right: 50px; */
     color: #EE82EE;
     font-size: 32px;
     text-align: center;
-    padding-bottom: 8px;
-    display: flex;
+    /* display: flexbox;
+    justify-content: center; */
+    padding: 2px;
+    padding-top: -8px;
+    /* padding-left: 8px; */
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    box-sizing: inherit;
     box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
     /* padding-left: 30px; */
 }
@@ -15,4 +20,65 @@
 .git :hover {
     color: #30D5C8;
     cursor: pointer;
+}
+
+.project-wrap {
+    /* margin: 10px; */
+    margin-bottom: -15px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.slide {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 15px;
+    margin-bottom: -4px;
+    
+    
+}
+
+.gitlink {
+    padding-bottom: 18px;
+    padding-left: 15px;
+}
+
+.wholeslide{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+
+    /* size: ; */
+    line-height: 16px;
+    /* font-size: 25px; */
+}
+.slide-content {
+    /* text-wrap: wrap; */
+    text-align: left;
+    padding-right: 80px;
+    padding-left: 30px;
+    /* top: -20px; */
+    /* height: 400px; */
+    font-size: 16px;
+}
+
+.slide-image {
+    padding-left: 90px;
+}
+
+.sliderimg{
+    border-radius: 18px;
+}
+
+.slide-title {
+    text-decoration: underline;
+    color: coral;
+    font-family: 'Alice', serif;
+    font-weight: bold;
+}
+.label {
+    color: #fa9ffa;
+}
+.value {
+    font-family: 'El Messiri', sans-serif;
 }
