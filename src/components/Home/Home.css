@@ -47,9 +47,10 @@ body {
     padding-top: 6px;
     /* padding-left: 90px; */
     position: relative;
-    top: -40px;
+    top: -28px;
     right: -32px;
     float: right;
+    border-radius: 120px;
     /* padding-right: px; */
 }
 
@@ -67,6 +68,7 @@ body {
     font-size: 1.875em;
     /* font-family: 'El Messiri', sans-serif; */
     font-family: 'Lato', sans-serif;
+    margin-bottom: 8px;
 }
 
 .scroll {
@@ -95,7 +97,7 @@ body {
 }
 
 .welcome-wrapper {
-    padding-top: -5px;
+    padding-bottom: -10px;
 }
 
 

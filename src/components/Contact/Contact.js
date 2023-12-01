@@ -118,7 +118,7 @@ const Contact = () => {
                   required
                   className='msg-box'
                   title='Please leave a message'
-                ></textarea>
+                />
                 <br/>
                 {/* <input 
                 type="submit" 

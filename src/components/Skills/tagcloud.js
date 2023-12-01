@@ -15,6 +15,7 @@ const Tagcloud = () => {
         'JavaScript',
         'MySQL',
         'Git',
+        'Agile'
     ]
     const options = {
         radius: 270,

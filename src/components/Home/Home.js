@@ -20,7 +20,7 @@ function Home() {
         <Zoom >
           <h1 className='title'>
             I'm {""} 
-            <span style={{color: '#EE82EE'}}><ReactTyped strings={["Margaret."]} typeSpeed={100} loop showCursor={false} /></span>
+            <em><span style={{color: '#EE82EE'}}><ReactTyped strings={["Margaret."]} typeSpeed={100} loop showCursor={false} /></span></em>
           </h1>
         </Zoom>
         <Reveal className= 'welcome-wrapper'>
