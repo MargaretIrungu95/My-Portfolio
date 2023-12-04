@@ -34,16 +34,19 @@ function Home() {
           <h3 className='scroll'>HAPPY <span className='scrolling'>SCROLLING</span></h3>
         </Bounce> */}
         <br/>
-        <Link to= '/about' className='linky'>
-          <button>
-            About Me
-          </button>
-        </Link> 
-        <Link to= '/contact' className='linky'>
-          <button>
-            Contact Me
-          </button>
-        </Link>
+        <div className='home-btn'>
+          <Link to= '/about' className='linky'>
+            <button>
+              About Me
+            </button>
+          </Link> 
+          <Link to= '/contact' className='linky'>
+            <button>
+              Contact Me
+            </button>
+          </Link>
+        </div>
+        
       </div> 
         <div className='purpbg'>
           <Fade>

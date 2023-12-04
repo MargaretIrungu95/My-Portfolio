@@ -126,10 +126,15 @@ body {
 /* <!-- HTML !-->
 <button class="button-86" role="button">Button 86</button> */
 
+/* .home-button {
+    display: flex;
+    flex-direction: column;
+} */
+
 /* CSS */
 button {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     all: unset;
     width: 100px;
     height: 30px;
