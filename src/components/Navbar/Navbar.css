@@ -31,7 +31,7 @@ nav {
 }
 
 .link {
-    color: white;
+    color: #fff4ff;
     text-decoration: none;
 
 }
@@ -44,7 +44,7 @@ nav {
     text-shadow: 0px 0px 6px rgb(255, 68, 0);
     -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
     -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-    transition: all 0.4s ease 0s;
+    transition: all 0.2s ease 0s;
 }
 /* rgba(255, 255, 255, 1) */
 
@@ -58,10 +58,10 @@ nav {
 }
 
 .icon {
-    color: rgb(255, 170, 140);
+    color: rgba(252, 164, 126, 0.658);
 }
 
 .icon:hover {
-    color: #cc9dcc;
+    color: #fabefa;
     transform: scale(1.2);
 }

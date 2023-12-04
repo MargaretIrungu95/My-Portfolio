@@ -5,6 +5,7 @@ import Loader from 'react-loaders';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Reveal, Bounce, Zoom } from "react-reveal";
+import webthing from '../Images/webthingy.gif';
 
 
 const Contact = () => {
@@ -138,6 +139,13 @@ const Contact = () => {
           </Bounce>
           
         </div>
+      </div>
+      <div className='deco'>
+        <img src= {webthing} alt='deco'style={{width: '150px'}}/>
+      </div>
+
+      <div className='deco2'>
+        <img src= {webthing} alt='deco'style={{width: '150px'}}/>
       </div>
       <Loader type="pacman" />
     </>

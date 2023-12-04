@@ -75,7 +75,7 @@ function Projects() {
       
       <Zoom>
         <div className='slide'>
-          <Slide>
+          <Slide className= 'slide-itself'>
             {slideImages.map((slideImage, index) => (
               <div key={index} className='proj-page'>
                 <div className='wholeslide'>
@@ -101,7 +101,7 @@ function Projects() {
                     <p className='value'>
                       {slideImage.Frontend}
                     </p>
-                    <a href= {slideImage.FrontendLink} style={{textDecoration:'none', color: '#30D5C8'}} className='web-link value'>
+                    <a href= {slideImage.FrontendLink} className='web-link value'>
                       Github Repository
                     </a>
                     {/* backend */}
@@ -111,14 +111,14 @@ function Projects() {
                     <p className='value'>
                       {slideImage.Backend}
                     </p>
-                    <a href= {slideImage.BackendLink} style={{textDecoration:'none', color: '#30D5C8'}} className='web-link value'>
+                    <a href= {slideImage.BackendLink} className='web-link value'>
                       Github Repository
                     </a>
                     {/* web link */}
                     <h3 className='label'>
                       Website: 
                     </h3>
-                    <a href= {slideImage.Website} style={{textDecoration:'none', color: '#30D5C8'}} className='web-link value'>
+                    <a href= {slideImage.Website} className='web-link value'>
                       Click to view the finished product!
                     </a>
                   </div>
@@ -133,9 +133,9 @@ function Projects() {
       <Fade>
         <div className='gitlink'>
           <p className='aboutcont'>
-            Please visit my
-            <a href='https://github.com/MargaretIrungu95?tab=repositories' style={{textDecoration:'none', color: '#fa9ffa'}} className='git'> Github </a>
-            page and take a look at some of my other projects!
+            Please visit my&nbsp; 
+            <a href='https://github.com/MargaretIrungu95?tab=repositories' className='git web-link'>Github</a>
+            &nbsp;page and take a look at some of my other projects!
           </p>
       </div>
       </Fade>

@@ -6,6 +6,29 @@
   
 }
 
+.deco {
+  display: block;
+  position: absolute;
+  z-index: 3;
+  height: 100%;
+  /* width: -60px; */
+  bottom: 20px;
+  right: 320px;
+  top: 270px;
+}
+
+.deco2 {
+  display: block;
+  position: absolute;
+  z-index: 3;
+  height: 100%;
+  /* width: -60px; */
+  bottom: 20px;
+  /* right: 100px; */
+  left: 220px;
+  top: 270px;
+}
+
 /* .cont-wrap {
   display: flex;
   flex-direction: row;
