@@ -58,10 +58,10 @@ nav {
 }
 
 .icon {
-    color: rgba(252, 164, 126, 0.658);
+    color: #fabefa;
 }
 
 .icon:hover {
-    color: #fabefa;
+    color:rgba(252, 164, 126, 0.658);
     transform: scale(1.2);
 }
