@@ -126,15 +126,26 @@ body {
 /* <!-- HTML !-->
 <button class="button-86" role="button">Button 86</button> */
 
-/* .home-button {
+.home-button {
     display: flex;
     flex-direction: column;
-} */
+    width: 100px;
+    height: 30px;
+    margin: 15px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    position: relative;
+    color: black;
+    cursor: pointer;
+    z-index: 1;
+    padding: 10px 20px;
+}
 
 /* CSS */
 button {
-    display: flex;
-    flex-direction: row;
+    /* display: flex; */
+    /* flex-direction: row; */
     all: unset;
     width: 100px;
     height: 30px;
@@ -147,6 +158,8 @@ button {
     cursor: pointer;
     z-index: 1;
     padding: 10px 20px;
+    
+    
     
     /* align-items: center; */
     /* justify-content: center; */
