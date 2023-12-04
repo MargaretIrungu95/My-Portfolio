@@ -19,7 +19,7 @@ const slideImages = [
   {
     url: 'https://upload.wikimedia.org/wikipedia/en/1/19/Marvel_Universe_%28Civil_War%29.jpg',
     Title: 'Marvel Character App',
-    Description: 'It displays a variety of superheroes, their power statistics, most polpular characters etc. Upon signing in (persistent log in), the user can favourite the characters they like and set their profile pictures.',
+    Description: 'It displays a variety of superheroes, their power statistics, most polpular characters etc. Upon signing in (persistent log in), the user can favourite the characters they like, set their profile pictures etc.',
     Frontend: 'React, NodeJs, CSS3, JavaScript, HTML5',
     FrontendLink: 'https://github.com/MargaretIrungu95/marvel', 
     Backend: 'MySQL, Express',

@@ -6,6 +6,12 @@
   
 }
 
+/* .cont-wrap {
+  display: flex;
+  flex-direction: row;
+} */
+
+
 .cont-text {
   padding-right: 80px;
 }

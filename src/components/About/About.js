@@ -26,9 +26,9 @@ function About() {
         
         <LightSpeed>
           <p className='aboutcont'>
-            I am a <span style={{color: '#fa9ffa'}}>Junior Developer</span> looking to get into the Technology Industry. I am keen to<br/>
+            I am a <span style={{color: '#fa9ffa'}}><em>Junior Developer</em></span> looking to get into the Technology Industry. I am keen to<br/>
             learn new programming languages via building games and applications. I enjoy creating both <br/> 
-            the front and backend, hence looking to fulfil a career in <span style={{color: '#fa9ffa'}}>Fullstack Development</span>.
+            the front and backend, hence looking to fulfil a career in <span style={{color: '#fa9ffa'}}><em>Fullstack Development</em></span>.
           </p>
           <p className='aboutcont'>  
             As an Aerospace Engineering graduate, I am an analytical, adaptable and <br/>
@@ -36,7 +36,7 @@ function About() {
             I am therefore always looking to keep up with new and updated languages <br/>
             as I continue to grow within my abilities as an upcoming developer. <br/>
             If I was to describe myself in a sentence that would be: <br/>
-            <span style={{color: '#fa9ffa'}}>"Resilient, always Curious, just like a cat!"</span>
+            <span style={{color: '#fa9ffa'}}><em>"Resilient, always Curious, just like a cat!"</em></span>
           </p>
         </LightSpeed>
       {/* <p>

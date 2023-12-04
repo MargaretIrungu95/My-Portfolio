@@ -6,6 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Reveal, Bounce, Zoom } from "react-reveal";
 
+
 const Contact = () => {
   const form = useRef()
   const sendEmail = (e) => {

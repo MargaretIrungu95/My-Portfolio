@@ -40,6 +40,7 @@ nav {
     cursor:pointer;
     transform: scale(1.2);
     /* color:rgba(255, 127, 80, 0.568); */
+    color: #cc9dcc;
     text-shadow: 0px 0px 6px rgb(255, 68, 0);
     -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
     -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
@@ -54,4 +55,13 @@ nav {
 
 .soft-dev {
     color: #550355;
+}
+
+.icon {
+    color: rgb(255, 170, 140);
+}
+
+.icon:hover {
+    color: #cc9dcc;
+    transform: scale(1.2);
 }

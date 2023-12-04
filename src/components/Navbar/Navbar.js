@@ -23,27 +23,27 @@ function Navbar() {
         </p>
 
         <Link to= '/' className='link'>
-          <FontAwesomeIcon icon={faFortAwesome} bounce size="xl"/> <br/>
+          <FontAwesomeIcon icon={faFortAwesome} bounce size="xl" className='icon'/> <br/>
           Home
         </Link>
 
         <Link to= '/about' className='link'>
-          <FontAwesomeIcon icon={faAddressCard} bounce size="xl"/> <br/>
+          <FontAwesomeIcon icon={faAddressCard} bounce size="xl" className='icon'/> <br/>
           About
         </Link>
 
         <Link to= '/skills' className='link'> 
-          <FontAwesomeIcon icon={faNode} bounce size="xl"/> <br/>
+          <FontAwesomeIcon icon={faNode} bounce size="xl" className='icon'/> <br/>
           Skills
         </Link>
 
         <Link to= '/projects' className='link'>
-          <FontAwesomeIcon icon={faBarsProgress} bounce size="xl"/> <br/>
+          <FontAwesomeIcon icon={faBarsProgress} bounce size="xl" className='icon'/> <br/>
           Projects
         </Link>
 
         <Link to= '/contact' className='link'>
-          <FontAwesomeIcon icon={faAddressBook} bounce size="xl"/> <br/>
+          <FontAwesomeIcon icon={faAddressBook} bounce size="xl" className='icon'/> <br/>
           Contact
         </Link>
       </nav>
