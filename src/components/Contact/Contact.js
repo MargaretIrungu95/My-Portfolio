@@ -140,13 +140,16 @@ const Contact = () => {
           
         </div>
       </div>
-      <div className='deco'>
-        <img src= {webthing} alt='deco'style={{width: '150px'}}/>
-      </div>
+      <Bounce>
+        <div className='deco'>
+          <img src= {webthing} alt='deco'style={{width: '150px'}}/>
+        </div>
 
-      <div className='deco2'>
-        <img src= {webthing} alt='deco'style={{width: '150px'}}/>
-      </div>
+        <div className='deco2'>
+          <img src= {webthing} alt='deco'style={{width: '150px'}}/>
+        </div>
+      </Bounce>
+      
       <Loader type="pacman" />
     </>
   );
